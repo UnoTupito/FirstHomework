@@ -27,6 +27,7 @@
             android:textSize="25sp" />
 
         <Button
+            android:id="@+id/bigButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
@@ -34,6 +35,7 @@
             android:textSize="18sp" />
 
         <EditText
+            android:id="@+id/usersText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Highly convenient box"
@@ -47,10 +49,12 @@
             android:text="Max coolness!" />
 
         <CalendarView
+            android:id="@+id/dateChoice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <CheckBox
+            android:id="@+id/likeChoice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Like!"
@@ -59,8 +63,7 @@
         <ToggleButton
             android:id="@+id/toggleButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TI do something" />
+            android:layout_height="wrap_content"/>
 
     </LinearLayout>
 </ScrollView>
